@@ -1,0 +1,152 @@
+
+/*Site main styles*/
+
+.logo {
+
+	float: left;
+	
+	margin-left: -250px;
+	margin-top: -30px;
+}
+
+#mainContent {
+
+	width: 550px;
+	height: 250px;
+	margin: 70px auto;
+	border: 1px solid black;
+	padding: 10px 10px 10px 10px;
+	background-color: white;
+}
+#inputContent,#order-content {
+
+	width: 600px;
+	height: 320px;
+	margin: 0 auto;
+	border: 1px solid black;
+	padding: 10px 10px 10px 10px;
+	box-shadow: 10px 10px 10px #ccc;
+	z-index: 10;
+}
+
+
+
+.giftCardBottom{
+	float:left;
+	margin-top: 69px;
+	margin-left: -10px;
+	background-color:#2A82BA;
+	color:white;
+	padding-top: 10px;
+	width: 570px;
+	height: 37px;
+	
+}
+.giftCardTop{
+	float:left;
+	margin-top: -10px;
+	margin-left: -10px;
+	background-color:#2A82BA;
+	color:white;
+	padding-top: 10px;
+	width: 570px;
+	height: 37px;
+	
+}
+
+
+.btn {
+	
+float:right;
+background: #2A82BA;
+color: #fff;
+border: 1px solid #000;
+padding: 10px 10px 10px 10px;
+margin-top: -35px;	
+}
+.controls {
+
+	float: right;
+}
+.priceText, .nameText {
+
+	width: 200px;
+	height: 24px;
+}
+.priceText {
+	
+	margin-left: 14px;
+}
+select {
+
+	outline: none;
+	background-color: #2A82BA;
+	color: white;
+}
+
+input, textarea {
+
+	margin: 10px;
+	outline: none;
+}
+
+#curr {
+
+	font-size: 20px;
+}
+#priceOut {
+
+	font-size: 40px;
+	font-weight: bold;
+}
+.priceContainer {
+
+	float: right;
+	margin-right: 70px;
+	margin-top: 50px;
+}
+.nameContainer {
+
+	margin-top: 100px;
+}
+#save ,#order-stage {
+
+	background-image: url('../img/submit-button.png');
+	float: right;
+	width: 105px;
+	height: 37px;
+	border: 0;
+	color: white;
+	margin-top: 25px;
+}
+#message {
+
+	width: 200px;
+	height: 120px;
+}
+
+.messageContainer span{
+	
+	width: 100px;
+	
+}
+.sep {
+
+	margin-top: -50px;
+}
+
+.arrow {
+
+	background: url('../img/arrow.png');
+	width: 180px;
+	height: 360px;
+	margin-top: -470px;
+	margin-left: -190px;
+	z-index: 1;
+}	
+#sender-nameDIV {float:right; margin-top: -88px;}
+#sender-mailDIV {float:right; margin-top: -42px;}
+#to-mail{width: 153px;}
+.logo > h1 {margin:0;}
+.logo {color: white; }
+.logoPre{color:#000; margin-top: -5px; box-shadow: 0 10px 6px -6px #fff;}
